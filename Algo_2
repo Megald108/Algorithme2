@@ -1,0 +1,21 @@
+VARIABLES
+    n EST_DU_TYPE NOMBRE
+    i EST_DU_TYPE NOMBRE
+    fact EST_DU_TYPE NOMBRE
+
+DEBUT_ALGORITHME
+    AFFICHER "Entrez un entier n :"
+    LIRE n
+
+    fact PREND_LA_VALEUR 1
+
+    POUR i ALLANT_DE 1 A n
+        DEBUT_POUR
+            fact PREND_LA_VALEUR fact * i
+        FIN_POUR
+
+    AFFICHER "La factorielle de "
+    AFFICHER n
+    AFFICHER " est : "
+    AFFICHER fact
+FIN_ALGORITHME
